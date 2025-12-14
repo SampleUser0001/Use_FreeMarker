@@ -11,7 +11,7 @@ import java.util.Map;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 
-public class FreeMakerConfigFactory {
+public class FreeMarkerConfigFactory {
     
     private static final Map<Path, Configuration> cfgMap = new HashMap<>();
 

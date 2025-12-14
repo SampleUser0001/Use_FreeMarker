@@ -31,7 +31,7 @@ public class App {
         );
 
         try {
-            Template template = FreeMakerConfigFactory.getTemplate(
+            Template template = FreeMarkerConfigFactory.getTemplate(
                 Paths.get(System.getProperty("user.dir"), "src", "main", "resources"),
                 "DefaultTemplate.txt");
             
